@@ -22,7 +22,8 @@ teardown() {
   run shp build create ${build_name} \
     --source-git-url=https://github.com/shipwright-io/sample-go \
     --source-context-dir=source-build \
-    --output-image=${output_image}
+    --output-image=${output_image} \
+    --output-insecure=true
   assert_success
 
   run shp buildrun create ${buildrun_name} --buildref-name=${build_name}

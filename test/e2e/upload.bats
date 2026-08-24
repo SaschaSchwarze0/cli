@@ -41,7 +41,8 @@ function assert_shp_upload_follow_output() {
 	run shp build create ${build_name} \
 		--source-git-url="${source_url}" \
 		--source-context-dir="source-build" \
-		--output-image="${output_image}"
+		--output-image="${output_image}" \
+		--output-insecure=true
 	assert_success
 
 	# cloning the same repository used for the build in the test temporary directory, this is the
