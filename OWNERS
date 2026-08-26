@@ -4,13 +4,15 @@ approvers:
 - qu1queee
 - SaschaSchwarze0
 - HeavyWombat
+- IrvingMg
 
 reviewers:
 - qu1queee
 - SaschaSchwarze0
 - HeavyWombat
 - rxinui
-- hasanawad94
+- kaizakin
+- IrvingMg
 
 emeritus_approvers:
 - adambkaplan # 2026-06-17
@@ -24,3 +26,4 @@ emeritus_reviewers:
 - otaviof # 2024-05-24
 - coreydaley # 2024-05-24
 - ImJasonH
+- hasanawad94 # 2026-08-09
